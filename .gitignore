@@ -1,0 +1,11 @@
+# Virtual environment
+venv/
+
+# Compiled Python files
+*.pyc
+
+# Cache directories
+__pycache__/
+
+# SQLite database file
+*.db
