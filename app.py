@@ -18,7 +18,7 @@ class Video(db.Model):
 
 def fetch_and_store_videos():
     with app.app_context():    #to run in the current flask file
-        API_KEY = 'AIzaSyAagfsFNrjdrirezVdGiRB2Et6D076XsGw'
+        API_KEY = 'Your api key'  #can not make mine public 
         base_url = 'https://www.googleapis.com/youtube/v3/search'
         published_after = (datetime.now(timezone.utc) - timedelta(seconds=100)).isoformat()
 
